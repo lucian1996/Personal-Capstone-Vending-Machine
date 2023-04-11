@@ -20,8 +20,8 @@ public class Interface {
 
         while (mainMenu) {
             getMainMenu();
-            String menuInput = input.next();
-            switch (menuInput) {
+            String mainMenuOption = input.next();
+            switch (mainMenuOption) {
                 case "1" :  //  Get Stock
                     user.getStock();
                     break;

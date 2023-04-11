@@ -73,4 +73,5 @@ public class VendingMachine {
         double dollar = balance / 100.0;
         return dollarFormat.format(dollar);
     }
+
 }
